@@ -1,0 +1,214 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header-container {
+    width: 100%;
+}
+header {
+    position: sticky; 
+    top: 0;           
+}
+.first-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.button-1 {
+    width: 9%;
+    border: 2px solid black;
+    padding: 15px;
+    background: linear-gradient(to right,orange,rgb(253, 209, 215));
+    border:none;
+    border-radius: 10%;
+}
+.button-2 {
+    width: 15%;
+    border: 2px solid;
+    padding: 10px;
+    background: linear-gradient(to right,orange,rgb(253, 209, 215));
+    border:none;
+    border-radius: 10%;
+}
+input {
+    width: 22%;
+    border-color: orange;
+}
+.nav-1 {
+    width: 35%;
+}
+.nav-1 ul {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.nav-1 li {
+    list-style: none;
+    width: 20%;
+}
+.nav-1 div {
+    cursor: pointer;
+}
+.second-header {
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+}
+.nav-2 ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nav-2 li {
+    list-style: none;
+    cursor: pointer;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/* Snacks Section  */
+
+.snack-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+.snack-container>p {
+    font-size: 20px;
+}
+.snacks-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.snacks-menu p {
+    border: 2px solid orangered;
+    padding: 15px 30px;
+    border-radius: 10%;
+    color: orangered;
+}
+.snacks-menu p:hover {
+    color: white;
+    background-color: orangered;
+}
+.snack-items {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 25px;
+}
+.snack-items div {
+    border: 2px solid rgb(240, 238, 238);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.snack-items div h3~p {
+    color: orangered;
+}
+.snack-items div button {
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(243, 92, 5);
+    border: none;
+    font-size: 20px;
+    border-radius: 7%;
+}
+
+/* Cakes & Pastries  */
+.cakes-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+.cakes-container>p {
+    font-size: 20px;
+}
+.cakes-menu {
+    display: flex;
+    gap: 30px;
+}
+.cakes-menu p {
+    border: 2px solid orangered;
+    padding: 15px 30px;
+    border-radius: 10%;
+    color: orangered;
+}
+.cakes-menu p:hover {
+    color: white;
+    background-color: orangered;
+}
+.cake-items {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 25px;
+}
+.cake-items div {
+    border: 2px solid rgb(240, 238, 238);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cake-items div h3~p {
+    color: orangered;
+}
+.cake-items div button {
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(243, 92, 5);
+    border: none;
+    font-size: 20px;
+    border-radius: 7%;
+}
+.image {
+    background-size: cover;
+    height: 250px;
+}
+.wishlist {
+
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 85%;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/* Footer Section  */
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(235, 235, 235);
+}
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer-container > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
